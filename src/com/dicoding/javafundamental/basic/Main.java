@@ -1,10 +1,10 @@
 package com.dicoding.javafundamental.basic;
 
-import com.dicoding.javafundamental.basic.kendaraan.Kereta;
-import com.dicoding.javafundamental.basic.kendaraan.Mobil;
-import com.dicoding.javafundamental.basic.kendaraan.Motor;
-import com.dicoding.javafundamental.basic.musik.Gitar;
-import com.dicoding.javafundamental.basic.tipedata.User;
+import com.dicoding.javafundamental.basic.dasar.Kereta;
+import com.dicoding.javafundamental.basic.dasar.Mobil;
+import com.dicoding.javafundamental.basic.dasar.Motor;
+import com.dicoding.javafundamental.basic.dasar.Gitar;
+import com.dicoding.javafundamental.basic.dasar.TipeData;
 import org.apache.commons.lang3.time.DateUtils;
 
 import java.util.Date;
@@ -22,8 +22,8 @@ public class Main {
         System.out.println("Hari ini " + date);
         System.out.println("Besok " + tomorrow);
 
-        User user = new User();
-        user.tipeData();
+        TipeData tipeData = new TipeData();
+        tipeData.tipeData();
 
     }
 }

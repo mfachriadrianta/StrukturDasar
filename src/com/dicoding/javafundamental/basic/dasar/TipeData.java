@@ -1,8 +1,7 @@
-package com.dicoding.javafundamental.basic.tipedata;
+package com.dicoding.javafundamental.basic.dasar;
 
-public class User {
+public class TipeData {
     public static void tipeData() {
-
         // Byte
         // Range/Jangkauan tipe data byte sekitar -127 dan 127
         Byte abyte, bbyte;
