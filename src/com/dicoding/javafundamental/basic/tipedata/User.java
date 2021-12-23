@@ -57,8 +57,7 @@ public class User {
 
         // Char
         // Digunakan untuk menampung sebuah karakter yang dibungkus dengan tanda ('') dan berlaku untuk huruf
-        Character aCharacter, bCharacter;
-        aCharacter = 'P';
+        Character aCharacter = 'P';
         System.out.println("Ini adalah tipe data char atau character");
         System.out.println("Character pertama " + aCharacter);
     }
