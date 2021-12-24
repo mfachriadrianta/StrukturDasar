@@ -1,10 +1,6 @@
 package com.dicoding.javafundamental.basic;
 
-import com.dicoding.javafundamental.basic.dasar.Kereta;
-import com.dicoding.javafundamental.basic.dasar.Mobil;
-import com.dicoding.javafundamental.basic.dasar.Motor;
-import com.dicoding.javafundamental.basic.dasar.Gitar;
-import com.dicoding.javafundamental.basic.dasar.TipeData;
+import com.dicoding.javafundamental.basic.dasar.*;
 import org.apache.commons.lang3.time.DateUtils;
 
 import java.util.Date;
@@ -24,6 +20,8 @@ public class Main {
 
         TipeData tipeData = new TipeData();
         tipeData.tipeData();
+
+        TipeString.tipeString();
 
     }
 }

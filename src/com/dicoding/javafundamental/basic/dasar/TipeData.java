@@ -56,8 +56,12 @@ public class TipeData {
 
         // Char
         // Digunakan untuk menampung sebuah karakter yang dibungkus dengan tanda ('') dan berlaku untuk huruf
-        Character aCharacter = 'P';
+        Character aCharacter;
+        Character bCharacter;
+        aCharacter= 'P';
+        bCharacter = 33334;
+        Integer convertChar = Integer.valueOf(bCharacter);
         System.out.println("Ini adalah tipe data char atau character");
-        System.out.println("Character pertama " + aCharacter);
+        System.out.println("Character pertama " + aCharacter + " dan " + "Character kedua " + convertChar);
     }
 }
